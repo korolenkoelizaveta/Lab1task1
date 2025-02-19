@@ -28,7 +28,7 @@ namespace Testlab1task1
         public void Test3()
         {
             var result = First.Logic.Compare(5, 6, 7);
-            CollectionAssert.AreEqual(new int[] { 5, 6, 7 }, result);
+            CollectionAssert.AreEqual(new int[] { 7, 5, 6 }, result);
             Assert.Pass();
         }
     }
